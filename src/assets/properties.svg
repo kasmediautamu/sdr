@@ -1,0 +1,18 @@
+<svg id="Group_198" data-name="Group 198" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_114" data-name="Rectangle 114" width="16" height="16" fill="#fff" stroke="#074f70" stroke-width="1.5"/>
+    </clipPath>
+  </defs>
+  <g id="ic_properties" data-name="ic properties">
+    <g id="Mask_Group_32" data-name="Mask Group 32" clip-path="url(#clip-path)">
+      <g id="building-community" transform="translate(1 1)">
+        <path id="Path_358" data-name="Path 358" d="M5.889,6.667l3.889,3.889V16H5.889V12.889m0,3.111H2V10.556L5.889,6.667m.778.778V2.778A.778.778,0,0,1,7.444,2h7.778A.778.778,0,0,1,16,2.778V16H9.778" transform="translate(-2 -2)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Line_62" data-name="Line 62" y2="0.008" transform="translate(7.778 3.111)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Line_63" data-name="Line 63" y2="0.008" transform="translate(10.889 3.111)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Line_64" data-name="Line 64" y2="0.008" transform="translate(10.889 6.222)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Line_65" data-name="Line 65" y2="0.008" transform="translate(10.889 9.333)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

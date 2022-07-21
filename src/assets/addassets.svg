@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_135" data-name="Rectangle 135" width="32" height="32" transform="translate(1042 79)" fill="#fff" stroke="#6f6f6f" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="ic_create_assets" data-name="ic create assets" transform="translate(-1042 -79)" clip-path="url(#clip-path)">
+    <g id="file-plus" transform="translate(1040.545 77.545)">
+      <path id="Path_302" data-name="Path 302" d="M20.364,2.909H8.727A2.909,2.909,0,0,0,5.818,5.818V29.091A2.909,2.909,0,0,0,8.727,32H26.182a2.909,2.909,0,0,0,2.909-2.909V11.636Z" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_303" data-name="Path 303" d="M20.364,2.909v8.727h8.727" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_304" data-name="Path 304" d="M17.455,26.182V17.455" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_305" data-name="Path 305" d="M13.091,21.818h8.727" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

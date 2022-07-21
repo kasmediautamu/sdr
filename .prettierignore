@@ -1,0 +1,5 @@
+build
+tsconfig.json
+node_modules
+# testing
+/coverage

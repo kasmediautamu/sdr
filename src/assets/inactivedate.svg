@@ -1,0 +1,15 @@
+<svg id="Group_219" data-name="Group 219" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_26" data-name="Rectangle 26" width="24" height="24" fill="#fff" stroke="#999" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_6" data-name="Mask Group 6" clip-path="url(#clip-path)">
+    <g id="calendar" transform="translate(2.183 1.091)">
+      <rect id="Rectangle_27" data-name="Rectangle 27" width="19.636" height="19.636" rx="1.455" transform="translate(0 2.182)" fill="none" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_20" data-name="Path 20" d="M11.636,1.455V5.818" transform="translate(2.545 -1.455)" fill="none" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_21" data-name="Path 21" d="M5.818,1.455V5.818" transform="translate(-0.364 -1.455)" fill="none" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_22" data-name="Path 22" d="M2.182,7.273H21.818" transform="translate(-2.182 1.455)" fill="none" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

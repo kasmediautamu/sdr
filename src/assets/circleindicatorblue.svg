@@ -1,0 +1,7 @@
+<svg id="stepper_dot" data-name="stepper dot" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="stepper_dot-2" data-name="stepper dot" fill="#fff" stroke="#117bab" stroke-width="2">
+    <circle cx="8" cy="8" r="8" stroke="none"/>
+    <circle cx="8" cy="8" r="7" fill="none"/>
+  </g>
+  <circle id="stepper_dot-3" data-name="stepper dot" cx="4" cy="4" r="4" transform="translate(4 4)" fill="#117bab"/>
+</svg>

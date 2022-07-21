@@ -1,0 +1,14 @@
+<svg id="ic_upload_2" data-name="ic upload 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_133" data-name="Rectangle 133" width="32" height="32" transform="translate(216 79)" fill="#fff" stroke="#6f6f6f" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="ic_upload_2-2" data-name="ic upload 2" transform="translate(-216 -79)" clip-path="url(#clip-path)">
+    <g id="upload" transform="translate(212.8 75.8)">
+      <path id="Path_312" data-name="Path 312" d="M33.6,24v6.4a3.2,3.2,0,0,1-3.2,3.2H8a3.2,3.2,0,0,1-3.2-3.2V24" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_313" data-name="Path 313" d="M27.2,12.8l-8-8-8,8" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_314" data-name="Path 314" d="M19.2,4.8V24" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

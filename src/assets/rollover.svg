@@ -1,0 +1,13 @@
+<svg id="ic_roll_over" data-name="ic roll over" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_135" data-name="Rectangle 135" width="32" height="32" transform="translate(1042 79)" fill="#fff" stroke="#6f6f6f" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="ic_roll_over-2" data-name="ic roll over" transform="translate(-1042 -79)" clip-path="url(#clip-path)">
+    <g id="rotate-cw" transform="translate(1039.156 77.874)">
+      <path id="Path_306" data-name="Path 306" d="M32.826,5.709v8.563H24.263" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_307" data-name="Path 307" d="M29.244,21.408A12.845,12.845,0,1,1,26.218,8.05l6.608,6.223" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

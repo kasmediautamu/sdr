@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="257" height="232" viewBox="0 0 257 232">
+  <defs>
+    <filter id="Rectangle_104" x="1" y="6" width="114" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_104-2" x="1" y="50" width="114" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_104-3" x="1" y="94" width="114" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_104-4" x="1" y="138" width="114" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_104-5" x="1" y="182" width="114" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_104-6" x="142" y="6" width="114" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_104-7" x="142" y="50" width="114" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_104-8" x="142" y="94" width="114" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_104-9" x="142" y="138" width="114" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_104-10" x="142" y="182" width="114" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_241" data-name="Group 241" transform="translate(-780 -756)">
+    <g id="Group_188" data-name="Group 188">
+      <g id="Rectangle_102" data-name="Rectangle 102" transform="translate(780 756)" fill="#fafafa" stroke="#ddd" stroke-width="1">
+        <rect width="116" height="232" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="115" height="231" rx="3.5" fill="none"/>
+      </g>
+      <g id="Group_183" data-name="Group 183">
+        <g transform="matrix(1, 0, 0, 1, 780, 756)" filter="url(#Rectangle_104)">
+          <rect id="Rectangle_104-11" data-name="Rectangle 104" width="96" height="32" rx="4" transform="translate(10 12)" fill="#fff"/>
+        </g>
+        <text id="Custom_Field" data-name="Custom Field" transform="translate(805 789)" fill="#1a1a1a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Custom Field</tspan></text>
+      </g>
+      <g id="Group_184" data-name="Group 184" transform="translate(0 44)">
+        <g transform="matrix(1, 0, 0, 1, 780, 712)" filter="url(#Rectangle_104-2)">
+          <rect id="Rectangle_104-12" data-name="Rectangle 104" width="96" height="32" rx="4" transform="translate(10 56)" fill="#fff"/>
+        </g>
+        <text id="Custom_Field-2" data-name="Custom Field" transform="translate(805 789)" fill="#1a1a1a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Custom Field</tspan></text>
+      </g>
+      <g id="Group_185" data-name="Group 185" transform="translate(0 88)">
+        <g transform="matrix(1, 0, 0, 1, 780, 668)" filter="url(#Rectangle_104-3)">
+          <rect id="Rectangle_104-13" data-name="Rectangle 104" width="96" height="32" rx="4" transform="translate(10 100)" fill="#fff"/>
+        </g>
+        <text id="Custom_Field-3" data-name="Custom Field" transform="translate(805 789)" fill="#1a1a1a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Custom Field</tspan></text>
+      </g>
+      <g id="Group_186" data-name="Group 186" transform="translate(0 132)">
+        <g transform="matrix(1, 0, 0, 1, 780, 624)" filter="url(#Rectangle_104-4)">
+          <rect id="Rectangle_104-14" data-name="Rectangle 104" width="96" height="32" rx="4" transform="translate(10 144)" fill="#fff"/>
+        </g>
+        <text id="Custom_Field-4" data-name="Custom Field" transform="translate(805 789)" fill="#1a1a1a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Custom Field</tspan></text>
+      </g>
+      <g id="Group_187" data-name="Group 187" transform="translate(0 176)">
+        <g transform="matrix(1, 0, 0, 1, 780, 580)" filter="url(#Rectangle_104-5)">
+          <rect id="Rectangle_104-15" data-name="Rectangle 104" width="96" height="32" rx="4" transform="translate(10 188)" fill="#fff"/>
+        </g>
+        <text id="Custom_Field-5" data-name="Custom Field" transform="translate(805 789)" fill="#1a1a1a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Custom Field</tspan></text>
+      </g>
+    </g>
+    <g id="Group_189" data-name="Group 189" transform="translate(141)">
+      <g id="Rectangle_102-2" data-name="Rectangle 102" transform="translate(780 756)" fill="#fafafa" stroke="#ddd" stroke-width="1">
+        <rect width="116" height="232" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="115" height="231" rx="3.5" fill="none"/>
+      </g>
+      <g id="Group_183-2" data-name="Group 183">
+        <g transform="matrix(1, 0, 0, 1, 639, 756)" filter="url(#Rectangle_104-6)">
+          <rect id="Rectangle_104-16" data-name="Rectangle 104" width="96" height="32" rx="4" transform="translate(151 12)" fill="#fff"/>
+        </g>
+        <text id="System_Field" data-name="System Field" transform="translate(838 789)" fill="#1a1a1a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-32.95" y="0">System Field</tspan></text>
+      </g>
+      <g id="Group_184-2" data-name="Group 184" transform="translate(0 44)">
+        <g transform="matrix(1, 0, 0, 1, 639, 712)" filter="url(#Rectangle_104-7)">
+          <rect id="Rectangle_104-17" data-name="Rectangle 104" width="96" height="32" rx="4" transform="translate(151 56)" fill="#fff"/>
+        </g>
+        <text id="System_Field-2" data-name="System Field" transform="translate(838 789)" fill="#1a1a1a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-32.95" y="0">System Field</tspan></text>
+      </g>
+      <g id="Group_185-2" data-name="Group 185" transform="translate(0 88)">
+        <g transform="matrix(1, 0, 0, 1, 639, 668)" filter="url(#Rectangle_104-8)">
+          <rect id="Rectangle_104-18" data-name="Rectangle 104" width="96" height="32" rx="4" transform="translate(151 100)" fill="#fff"/>
+        </g>
+        <text id="System_Field-3" data-name="System Field" transform="translate(838 789)" fill="#1a1a1a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-32.95" y="0">System Field</tspan></text>
+      </g>
+      <g id="Group_186-2" data-name="Group 186" transform="translate(0 132)">
+        <g transform="matrix(1, 0, 0, 1, 639, 624)" filter="url(#Rectangle_104-9)">
+          <rect id="Rectangle_104-19" data-name="Rectangle 104" width="96" height="32" rx="4" transform="translate(151 144)" fill="#fff"/>
+        </g>
+        <text id="System_Field-4" data-name="System Field" transform="translate(805 789)" fill="#1a1a1a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">System Field</tspan></text>
+      </g>
+      <g id="Group_187-2" data-name="Group 187" transform="translate(0 176)">
+        <g transform="matrix(1, 0, 0, 1, 639, 580)" filter="url(#Rectangle_104-10)">
+          <rect id="Rectangle_104-20" data-name="Rectangle 104" width="96" height="32" rx="4" transform="translate(151 188)" fill="#fff"/>
+        </g>
+        <text id="System_Field-5" data-name="System Field" transform="translate(838 789)" fill="#1a1a1a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-32.95" y="0">System Field</tspan></text>
+      </g>
+    </g>
+    <g id="Group_194" data-name="Group 194" transform="translate(883 781)">
+      <circle id="Ellipse_39" data-name="Ellipse 39" cx="3.5" cy="3.5" r="3.5" transform="translate(0 87)" fill="#117bab"/>
+      <path id="Polygon_11" data-name="Polygon 11" d="M3,0,6,6H0Z" transform="translate(48) rotate(90)" fill="#117bab"/>
+      <path id="Path_119" data-name="Path 119" d="M-10273.988-7525.979s22.292,6.106,22.686-43.241,16.285-43.007,16.285-43.007" transform="translate(10278 7615.641)" fill="none" stroke="#117bab" stroke-width="1.5"/>
+    </g>
+    <g id="Group_192" data-name="Group 192" transform="translate(0 133)">
+      <circle id="Ellipse_39-2" data-name="Ellipse 39" cx="3.5" cy="3.5" r="3.5" transform="translate(883 781)" fill="#117bab"/>
+      <path id="Polygon_11-2" data-name="Polygon 11" d="M3,0,6,6H0Z" transform="translate(931 782) rotate(90)" fill="#117bab"/>
+      <path id="Path_119-2" data-name="Path 119" d="M-10273.988-7612.51h38.971" transform="translate(11161 8397.59)" fill="none" stroke="#117bab" stroke-width="1.5"/>
+    </g>
+    <g id="Group_193" data-name="Group 193" transform="translate(0 175)">
+      <circle id="Ellipse_39-3" data-name="Ellipse 39" cx="3.5" cy="3.5" r="3.5" transform="translate(883 781)" fill="#117bab"/>
+      <path id="Polygon_11-3" data-name="Polygon 11" d="M3,0,6,6H0Z" transform="translate(931 782) rotate(90)" fill="#117bab"/>
+      <path id="Path_119-3" data-name="Path 119" d="M-10273.988-7612.51h38.971" transform="translate(11161 8397.59)" fill="none" stroke="#117bab" stroke-width="1.5"/>
+    </g>
+    <g id="Group_190" data-name="Group 190">
+      <circle id="Ellipse_39-4" data-name="Ellipse 39" cx="3.5" cy="3.5" r="3.5" transform="translate(883 781)" fill="#fd6620"/>
+      <path id="Polygon_11-4" data-name="Polygon 11" d="M3,0,6,6H0Z" transform="translate(931 826) rotate(90)" fill="#fd6620"/>
+      <path id="Path_119-4" data-name="Path 119" d="M-10273.988-7612.38s14.309-2.98,22.686,21.817,16.285,21.7,16.285,21.7" transform="translate(11161 8397.59)" fill="none" stroke="#fd6620" stroke-width="1.5"/>
+    </g>
+    <g id="Group_195" data-name="Group 195" transform="translate(0 44)">
+      <circle id="Ellipse_39-5" data-name="Ellipse 39" cx="3.5" cy="3.5" r="3.5" transform="translate(883 781)" fill="#fd6620"/>
+      <path id="Polygon_11-5" data-name="Polygon 11" d="M3,0,6,6H0Z" transform="translate(931 826) rotate(90)" fill="#fd6620"/>
+      <path id="Path_119-5" data-name="Path 119" d="M-10273.988-7612.38s14.309-2.98,22.686,21.817,16.285,21.7,16.285,21.7" transform="translate(11161 8397.59)" fill="none" stroke="#fd6620" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

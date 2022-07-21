@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_187" data-name="Rectangle 187" width="16" height="16" transform="translate(263 10)" fill="#fff" stroke="#6f6f6f" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ic_eye" data-name="ic eye" transform="translate(-263 -10)" clip-path="url(#clip-path)">
+    <g id="eye" transform="translate(263 10)">
+      <path id="Path_359" data-name="Path 359" d="M.667,8S3.333,2.667,8,2.667,15.333,8,15.333,8,12.667,13.333,8,13.333.667,8,.667,8Z" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333"/>
+      <circle id="Ellipse_45" data-name="Ellipse 45" cx="2" cy="2" r="2" transform="translate(6 6)" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333"/>
+    </g>
+  </g>
+</svg>

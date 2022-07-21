@@ -1,0 +1,9 @@
+<svg id="collapse" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Rectangle_116" data-name="Rectangle 116" fill="#fff" stroke="#c4c4c4" stroke-width="1">
+    <rect width="30" height="30" rx="4" stroke="none"/>
+    <rect x="0.5" y="0.5" width="29" height="29" rx="3.5" fill="none"/>
+  </g>
+  <g id="chevron-left" transform="translate(13 10)">
+    <path id="Path_126" data-name="Path 126" d="M9,16l5-5L9,6" transform="translate(-9 -6)" fill="none" stroke="#1f1f1f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

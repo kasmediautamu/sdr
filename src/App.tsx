@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Suspense, useState, useEffect} from "react";
+
+import {Route, Routes} from "react-router-dom";
+import AppLoading from "./components/landing-spinner";
+import LoadingSuspense from "./components/loading-suspense";
+
+const Login = React.lazy(() => import("./containers/login"));
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ const [isLoading, setIsLoading] = useState(true);
+ useEffect(() => {
+  setTimeout(() => {
+   setIsLoading(false);
+  }, 1500);
+ }, []);
+ return (
+  <>
+   {isLoading ? (
+    <AppLoading />
+   ) : (
+    <Routes>
+     <Route
+      path="/"
+      element={
+       <Suspense fallback={<LoadingSuspense />}>
+        <Login />
+       </Suspense>
+      }
+     />
+    </Routes>
+   )}
+  </>
+ );
 }
 
 export default App;

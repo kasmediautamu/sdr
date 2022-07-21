@@ -1,0 +1,9 @@
+.txc-app-loading {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ .txc-circular-split {
+  margin: auto 0;
+ }
+}
