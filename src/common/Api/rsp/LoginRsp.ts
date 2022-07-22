@@ -3,6 +3,7 @@
  */
 
 import {Any} from "../../../services/types";
+import {User} from "../../dormain/User";
 export type IAuthToken = Any | LoginRsp;
 
 export type IAuthError =
@@ -16,15 +17,10 @@ export type IAuthError =
 export interface LoginRsp {
  access_token: string;
  userInfo: {
-  userId: string;
-  email: string;
-  planType: string;
-  returns: string;
-  expiration: string;
+  role: string;
   name: string;
-  isPropertySetup: boolean;
-  isCompanySetup: boolean;
-  isCompleteSetUp: boolean;
+  headPic: string;
+  proxyTypes: string[];
  };
 }
 

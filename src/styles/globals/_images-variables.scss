@@ -14,6 +14,9 @@
 @mixin image-logo-sm {
  @include background-image("logo.svg");
 }
+@mixin login-background {
+ @include background-image("loginbackground.svg", 1200px, 500px);
+}
 @mixin icon-home {
  @include background-image("icon-home-inactive.svg", 24px, 24px);
 }

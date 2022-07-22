@@ -1,0 +1,13 @@
+@import "../../../styles/index.scss";
+.login {
+ @include login-background;
+ background-color: #08242e;
+ position: relative;
+ img {
+ }
+ &__form-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+ }
+}

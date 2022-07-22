@@ -3,16 +3,7 @@ import {HTTPBaseService} from "./http-base-service";
 import {Any} from "./types";
 
 export const AUTH_LOCAL_KEY = "TA001";
-/**
- *  title: string;
- status: boolean;
- description: string;
- image: string;
- mainLinkLabel: string;
- mainLink: string;
- minorLinkLabel?: string;
- minorLink?: string;
- */
+
 export class AuthService extends HTTPBaseService {
  constructor() {
   super("");
@@ -21,7 +12,6 @@ export class AuthService extends HTTPBaseService {
   return this.instance.get(endpoint);
  }
  async authenticate(body: Any) {
-  console.log(body);
   return this.instance.post("/user/login", body);
  }
  async resetPwd(endpoint): Promise<Any> {

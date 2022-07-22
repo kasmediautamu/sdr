@@ -1,0 +1,45 @@
+@mixin sdr-btn($bg-color: #e2e) {
+ text-decoration: none;
+ cursor: pointer;
+ display: inline-block;
+ border: 0;
+ padding: $base-padding $base-padding * 2;
+ border-radius: $base-border-radius;
+ background-color: $bg-color;
+}
+.sdr-btn {
+ @include sdr-btn;
+}
+
+@each $key, $val in $colors {
+ .btn-#{$key} {
+  @include sdr-btn($val);
+  &:hover {
+   background-color: lighten($val, 5);
+  }
+ }
+ .btn-outlined-#{$key} {
+  @include sdr-btn(#fff);
+  border: $base-border-thickness solid $val;
+ }
+}
+
+// create rect
+@mixin rect($width, $height) {
+ width: $width;
+ height: $height;
+}
+.skey-btn {
+ @include rect(153px - 0.76px, 44px);
+}
+
+//create ball
+@mixin ball($size) {
+ @include box($size);
+ border-radius: 50%;
+}
+
+@mixin ball($size) {
+ @include box($size);
+ border-radius: 50%;
+}

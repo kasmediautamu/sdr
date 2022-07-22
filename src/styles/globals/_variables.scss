@@ -1,0 +1,133 @@
+$sdr-black: #000;
+$sdr-white: #fff;
+$sdr-apple: #6dc24b;
+$sdr-mantis: #80c342;
+$sdr-summer-sky: #34afc8;
+$sdr-cloud-burst: #323b4b;
+$sdr-black-pearl: #08242e;
+$sdr-tangaroa: #00293a;
+$sdr-tangaroa-10: rgba($sdr-tangaroa, 0.1);
+$sdr-tangaroa-30: rgba($sdr-tangaroa, 0.3);
+$sdr-dim-grey: #6b6b6b;
+$sdr-bright-grey: #58595b;
+$sdr-wild-watermelon: #f45b6e;
+$sdr-gainsboro: #d8d8d8;
+$sdr-gainsboro-50: rgba($sdr-gainsboro, 0.5);
+$sdr-gainsboro2: #dfdfdf;
+$sdr-gainsboro3: #dbdbdb;
+$sdr-gainsboro4: #dddddd;
+$sdr-nobel: #979797;
+$sdr-silver: #c2c2c2;
+$sdr-silver2: #bbbbbb;
+$sdr-suva-grey: #8e8e8e;
+$sdr-suva-grey-50: rgba($sdr-suva-grey, 0.5);
+$sdr-night-rider: #2e2e2e;
+$sdr-white-smoke: #f5f5f5;
+$sdr-very-light-grey: #c8c8c8;
+$sdr-ghost-white: #f7f7f8;
+$sdr-magnolia: #f8f7fb;
+$sdr-grey: #818181;
+$sdr-grey2: #777777;
+$sdr-grey2-50: rgba(sdr-grey2, 0.5);
+$sdr-charcoal: #424242;
+$sdr-cinnabar: #d94841;
+$sdr-radical-red: #f23d54;
+$sdr-whisper: #e8e8e8;
+$sdr-whisper2: #e4e4e4;
+$sdr-whisper3: #eeeeee;
+$sdr-azure: #f3fdff;
+$sdr-dark-grey: #a8a8a8;
+$sdr-bittersweet: #f75959;
+$sdr-nero: #161616;
+$sdr-blue-whale: #14323e;
+$sdr-patterns-blue: #cbe7f2;
+$sdr-patterns-blue2: #d0dce5;
+$sdr-cobalt: #034ea2;
+$sdr-border-grey: #f0f0f0;
+$sdr-mercury: #eaeaea;
+$sdr-black-haze: #e5e6e6;
+$sdr-silver-chalice: #9e9e9e;
+$sdr-oslo-grey: #8a8c8e;
+$sdr-alabaster: #fafafa;
+$sdr-yellow-sea: #f1aa03;
+$sdr-thunderbird: #ba1010;
+$sdr-froly: #f06375;
+$sdr-chilean-fire: #f16e03;
+// color palette
+
+$colors: (
+ "sdr-black": $sdr-black,
+ "sdr-white": $sdr-white,
+ "sdr-apple": $sdr-apple,
+ "sdr-mantis": $sdr-mantis,
+ "sdr-summer-sky": $sdr-summer-sky,
+ "sdr-cloud-burst": $sdr-cloud-burst,
+ "sdr-black-pearl": $sdr-black-pearl,
+ "sdr-tangaroa": $sdr-tangaroa,
+ "sdr-tangaroa-10": rgba($sdr-tangaroa, 0.1),
+ "sdr-tangaroa-30": rgba($sdr-tangaroa, 0.3),
+ "sdr-dim-grey": $sdr-dim-grey,
+ "sdr-bright-grey": $sdr-bright-grey,
+ "sdr-wild-watermelon": $sdr-wild-watermelon,
+ "sdr-gainsboro": $sdr-gainsboro,
+ "sdr-gainsboro-50": rgba($sdr-gainsboro, 0.5),
+ "sdr-gainsboro2": $sdr-gainsboro2,
+ "sdr-gainsboro3": $sdr-gainsboro3,
+ "sdr-gainsboro4": $sdr-gainsboro4,
+ "sdr-nobel": $sdr-nobel,
+ "sdr-silver": $sdr-silver,
+ "sdr-silver2": $sdr-silver2,
+ "sdr-suva-grey": $sdr-suva-grey,
+ "sdr-suva-grey-50": rgba($sdr-suva-grey, 0.5),
+ "sdr-night-rider": $sdr-night-rider,
+ "sdr-white-smoke": $sdr-white-smoke,
+ "sdr-very-light-grey": $sdr-very-light-grey,
+ "sdr-ghost-white": $sdr-ghost-white,
+ "sdr-magnolia": $sdr-magnolia,
+ "sdr-grey": $sdr-grey,
+ "sdr-grey2": $sdr-grey2,
+ "sdr-grey2-50": rgba(sdr-grey2, 0.5),
+ "sdr-charcoal": $sdr-charcoal,
+ "sdr-cinnabar": $sdr-cinnabar,
+ "sdr-radical-red": $sdr-radical-red,
+ "sdr-whisper": $sdr-whisper,
+ "sdr-whisper2": $sdr-whisper2,
+ "sdr-whisper3": $sdr-whisper3,
+ "sdr-azure": $sdr-azure,
+ "sdr-dark-grey": $sdr-dark-grey,
+ "sdr-bittersweet": $sdr-bittersweet,
+ "sdr-nero": $sdr-nero,
+ "sdr-blue-whale": $sdr-blue-whale,
+ "sdr-patterns-blue": $sdr-patterns-blue,
+ "sdr-patterns-blue2": $sdr-patterns-blue2,
+ "sdr-cobalt": $sdr-cobalt,
+ "sdr-border-grey": $sdr-border-grey,
+ "sdr-mercury": $sdr-mercury,
+ "sdr-black-haze": $sdr-black-haze,
+ "sdr-silver-chalice": $sdr-silver-chalice,
+ "sdr-oslo-grey": $sdr-oslo-grey,
+ "sdr-alabaster": $sdr-alabaster,
+ "sdr-yellow-sea": $sdr-yellow-sea,
+ "sdr-thunderbird": $sdr-thunderbird,
+ "sdr-froly": $sdr-froly,
+ "sdr-chilean-fire": $sdr-chilean-fire,
+);
+
+// spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+//box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+// font sizes
+
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;

@@ -36,3 +36,24 @@ a {
   color: inherit;
  }
 }
+
+input,
+textarea,
+select {
+ // remove default appearance
+ border: none;
+ background-color: transparent;
+ // remove focus outline
+ &:focus {
+  outline: none;
+ }
+}
+
+button {
+ border: 0;
+ outline: 0;
+ background-color: transparent;
+ &:not(:disabled) {
+  cursor: pointer;
+ }
+}

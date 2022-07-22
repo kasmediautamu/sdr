@@ -74,3 +74,5 @@ POST /login
 }
 
 # json-server db.json -m ./node_modules/json-server-auth -r routes.json
+
+# https://developer.edamam.com/edamam-docs-recipe-api

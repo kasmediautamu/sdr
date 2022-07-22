@@ -1,11 +1,6 @@
 export interface User {
- userId: string;
- email: string;
- planType: string;
- returns: string;
- expiration: string;
+ role: string;
  name: string;
- isPropertySetup: boolean;
- isCompanySetup: boolean;
- isCompleteSetUp: boolean;
+ headPic: string;
+ proxyTypes: string[];
 }

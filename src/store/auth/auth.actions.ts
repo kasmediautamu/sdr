@@ -75,15 +75,10 @@ export const login =
 
 export const afterLogin = async (loginRsp: LoginRsp) => {
  return await storageService.storeData(API_AUTH_USER_KEY, {
-  userId: loginRsp.userInfo.userId,
-  email: loginRsp.userInfo.email,
-  planType: loginRsp.userInfo.planType,
-  returns: loginRsp.userInfo.returns,
-  expiration: loginRsp.userInfo.expiration,
+  role: loginRsp.userInfo.role,
   name: loginRsp.userInfo.name,
-  isPropertySetup: loginRsp.userInfo.isPropertySetup,
-  isCompanySetup: loginRsp.userInfo.isCompanySetup,
-  isCompleteSetUp: loginRsp.userInfo.isCompleteSetUp,
+  headPic: loginRsp.userInfo.headPic,
+  proxyTypes: loginRsp.userInfo.proxyTypes,
  } as User);
 };
 
