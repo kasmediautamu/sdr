@@ -12,32 +12,31 @@ interface InputProps {
  onChange: () => void;
 }
 
-const CustomInput: React.FunctionComponent<InputProps> = (props) => {
- const {
-  label,
-  name,
-  placeholder,
-  onChange,
-  isRequired,
-  error,
-  errorMessage,
-  type,
- } = props;
+const CustomInput = (props) => {
+ const {label, name, placeholder, onChange, error, errorMessage, type} = props;
  const renderTextInput = () => {
   return (
    <div className="custom-text-input">
     {label && (
      <label htmlFor="fieldlabel" className="form-label">
-      {label} {isRequired && <span className="star">*</span>}
+      {label}
      </label>
     )}
-    <input
-     type={type}
-     name={name}
-     className="form-control"
-     placeholder={placeholder}
-     onChange={onChange}
-    />
+    <div className="input-group mb-3">
+     <div className="input-group-prepend">
+      <span className="input-group-text" id="basic-addon1">
+       @
+      </span>
+     </div>
+     <input
+      type={type}
+      name={name}
+      className="form-control"
+      placeholder={placeholder}
+      onChange={onChange}
+     />
+    </div>
+
     {error && (
      <div className="input-error">
       <div className="login-error-icon"></div>
@@ -52,7 +51,7 @@ const CustomInput: React.FunctionComponent<InputProps> = (props) => {
    <div className="custom-text-input">
     {label && (
      <label htmlFor="fieldlabel" className="form-label">
-      {label} {isRequired && <span className="star">*</span>}
+      {label}
      </label>
     )}
     <input

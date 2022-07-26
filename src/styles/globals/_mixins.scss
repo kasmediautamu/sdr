@@ -1,0 +1,6 @@
+@mixin vertical-divider($bg-color, $width, $height) {
+ background-color: $bg-color;
+ height: $height;
+ width: $width;
+ margin: 0 5px;
+}

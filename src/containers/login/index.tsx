@@ -1,6 +1,6 @@
 import React from "react";
 import Login from "../../components/auth/login";
-const LoginContainer: React.FunctionComponent = () => {
+const LoginContainer = () => {
  return <Login />;
 };
 

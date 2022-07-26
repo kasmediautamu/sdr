@@ -1,13 +1,11 @@
 @import "../../../styles/index.scss";
 .login {
  @include login-background;
- background-color: #08242e;
+ @extend .bg-sdr-black-pearl;
  position: relative;
- img {
- }
  &__form-wrapper {
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 40%;
+  top: 20%;
  }
 }

@@ -1,0 +1,10 @@
+<svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="23.997" height="24.001" viewBox="0 0 23.997 24.001">
+  <g id="Radar">
+    <path id="Path" d="M12,24A12,12,0,1,1,20.305,3.337l-.789.823A10.869,10.869,0,1,0,22.854,12H24A12.012,12.012,0,0,1,12,24Z"/>
+    <path id="Path-2" data-name="Path" d="M7.429,14.857A7.429,7.429,0,1,1,12.572,2.08l-.789.823a6.286,6.286,0,1,0,1.931,4.572h1.143a7.44,7.44,0,0,1-7.429,7.383Z" transform="translate(4.568 4.572)"/>
+    <path id="Path-3" data-name="Path" d="M2.859,5.714A2.857,2.857,0,1,1,4.459.491l-.64.949a1.714,1.714,0,1,0,.754,1.417H5.717A2.857,2.857,0,0,1,2.859,5.714Z" transform="translate(9.137 9.143)"/>
+    <circle id="Oval" cx="1.714" cy="1.714" r="1.714" transform="translate(10.282 3.429)"/>
+    <circle id="Oval-2" data-name="Oval" cx="1.714" cy="1.714" r="1.714" transform="translate(10.282 17.143)"/>
+    <rect id="Rectangle" width="14.549" height="1.143" transform="translate(11.593 11.589) rotate(-45)"/>
+  </g>
+</svg>

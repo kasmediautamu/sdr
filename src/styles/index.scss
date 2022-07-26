@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 @import "~bootstrap/scss/bootstrap";
 @import "./globals/reset";
+@import "./globals/mixins";
 @import "./globals/fonts";
 @import "./globals/variables";
 @import "./globals/images-variables";

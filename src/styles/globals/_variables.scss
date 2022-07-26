@@ -28,7 +28,7 @@ $sdr-ghost-white: #f7f7f8;
 $sdr-magnolia: #f8f7fb;
 $sdr-grey: #818181;
 $sdr-grey2: #777777;
-$sdr-grey2-50: rgba(sdr-grey2, 0.5);
+$sdr-grey2-50: rgba($sdr-grey2, 0.5);
 $sdr-charcoal: #424242;
 $sdr-cinnabar: #d94841;
 $sdr-radical-red: #f23d54;
@@ -86,7 +86,7 @@ $colors: (
  "sdr-magnolia": $sdr-magnolia,
  "sdr-grey": $sdr-grey,
  "sdr-grey2": $sdr-grey2,
- "sdr-grey2-50": rgba(sdr-grey2, 0.5),
+ "sdr-grey2-50": rgba($sdr-grey2, 0.5),
  "sdr-charcoal": $sdr-charcoal,
  "sdr-cinnabar": $sdr-cinnabar,
  "sdr-radical-red": $sdr-radical-red,
@@ -131,3 +131,5 @@ $font-size-sm: $base-font-size * 0.75;
 $font-size-lg: $base-font-size * 1.5;
 $font-size-xl: $base-font-size * 2;
 $font-size-xxl: $base-font-size * 3;
+
+// vertical divider

@@ -1,0 +1,13 @@
+@import "../../styles/index.scss";
+.sdr-layout {
+ &__main {
+  display: flex;
+  flex-direction: row;
+  &--left {
+   flex-basis: calc(200 / 1349) * 100%;
+  }
+  &--right {
+   flex-basis: calc((calc(1149 / 1349) * 100%) - (calc(200 / 1349) * 100%));
+  }
+ }
+}

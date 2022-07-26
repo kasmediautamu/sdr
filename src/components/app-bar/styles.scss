@@ -1,0 +1,80 @@
+@import "../../styles/index.scss";
+.sdr-appbar {
+ @extend .bg-sdr-black-pearl;
+ @extend .container-fluid;
+ padding: 16px 10px;
+ //  height: 64px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ &__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  & .sdr-menu-toggle {
+   cursor: pointer;
+  }
+  & .sdr-vertical-divider {
+   @include vertical-divider($sdr-gainsboro4, 1px, 35px);
+  }
+  & .sdr-page-title {
+   padding: 0 0 0 5px;
+   font-size: 17px;
+   font-family: $sdr-font;
+  }
+  & .sdr-logo {
+   padding: 0 5px 0 10px;
+   cursor: pointer;
+  }
+ }
+ &__center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  & .menu-item {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-left: 20px;
+   cursor: pointer;
+   & .menu-title {
+    font-size: 14px;
+    font-family: $sdr-font;
+    &:hover {
+     color: $sdr-mantis;
+    }
+   }
+   img {
+    padding-right: 10px;
+   }
+  }
+ }
+ &__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .menu-icon {
+   padding: 0 10px 0 0;
+   cursor: pointer;
+  }
+  .sdr-user-name {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+   .sdr-avatar {
+    padding: 0 0 0 10px;
+   }
+   .text-sdr-mantis {
+    font-size: 14px;
+    font-family: $sdr-font;
+    padding: 0px 10px;
+    cursor: pointer;
+    &:hover {
+     color: $sdr-apple;
+    }
+   }
+  }
+ }
+}

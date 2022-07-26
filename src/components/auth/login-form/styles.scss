@@ -1,1 +1,117 @@
 @import "../../../styles/index.scss";
+.login-form {
+ @extend .bg-sdr-white;
+ padding: 30px;
+ border-radius: 8px;
+
+ & .text-sdr-cloud-burst {
+  @extend .text-center;
+  font-size: $font-size-lg;
+  font-family: $sdr-font;
+ }
+ & .text-sdr-summer-sky {
+  @extend .text-center;
+  font-size: $font-size-sm;
+  font-family: $sdr-font;
+ }
+ & .sdr-form-control {
+  & .sdr-form-control-label {
+   @extend .text-sdr-cloud-burst;
+   font-size: $font-size-sm;
+   font-family: $sdr-font;
+  }
+ }
+ & .sdr-input-wrapper {
+  @extend .input-group;
+
+  & .input-group-prepend,
+  & .input-group-append {
+   span {
+    @extend .input-group-text;
+    @extend .bg-sdr-white-smoke;
+    height: 44px;
+   }
+  }
+  & .input-group-prepend {
+   span {
+    border-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-color: $sdr-white-smoke;
+   }
+  }
+  & .input-group-append {
+   span {
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-color: $sdr-white-smoke;
+    cursor: pointer;
+   }
+  }
+  & .form-control {
+   @extend .bg-sdr-white-smoke;
+   border-color: $sdr-white-smoke;
+   height: 44px;
+   font-family: $sdr-font;
+  }
+ }
+ & .sdr-remember-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .sdr-checkbox {
+   @extend .form-check;
+   @extend .form-check-inline;
+   & .form-check-label {
+    @extend .text-sdr-cloud-burst;
+    font-size: $font-size-sm;
+    font-family: $sdr-font;
+   }
+   .form-check-input:checked {
+    background-color: $sdr-apple;
+    border-color: $sdr-mantis;
+   }
+  }
+
+  & .forgot-link {
+   @extend .text-sdr-cloud-burst;
+   font-size: $font-size-sm;
+   font-family: $sdr-font;
+   text-align: right;
+   &:hover {
+    text-decoration: underline;
+   }
+  }
+ }
+ & .sdr-create-link {
+  @extend .text-sdr-cloud-burst;
+  font-size: $base-font-size * 1;
+ }
+ & button {
+  @extend.sdr-background;
+  background-color: $sdr-mantis;
+  color: $sdr-white;
+  font-family: $sdr-font;
+  margin: 10px 0;
+  &:hover {
+   background-color: $sdr-apple;
+  }
+ }
+ & .sdr-create-link {
+  & a > span {
+   color: $sdr-mantis;
+   padding-left: 5px;
+   &:hover {
+    color: $sdr-apple;
+    text-decoration: underline;
+   }
+  }
+ }
+ & .text-danger {
+  @extend .text-center;
+  font-size: $font-size-sm;
+  font-family: $sdr-font;
+  color: $sdr-thunderbird;
+ }
+}

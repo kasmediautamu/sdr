@@ -3,7 +3,7 @@ import Back from "../../../assets/loginbackground.svg";
 import LoginForm from "../login-form";
 import "./styles.scss";
 
-const Login: React.FunctionComponent = () => {
+const Login = () => {
  return (
   <div className="login">
    <img src={Back} alt="" />

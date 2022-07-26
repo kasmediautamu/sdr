@@ -1,0 +1,12 @@
+<svg id="Group" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path id="Path" d="M0,0H20V20H0Z" fill="none"/>
+  <circle id="Oval" cx="1.667" cy="1.667" r="1.667" transform="translate(10 3.333)" fill="none" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.25"/>
+  <path id="Path-2" data-name="Path" d="M0,.417H6.667" transform="translate(3.333 4.583)" fill="none" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.25"/>
+  <path id="Path-3" data-name="Path" d="M0,.417H3.333" transform="translate(13.333 4.583)" fill="none" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.25"/>
+  <circle id="Oval-2" data-name="Oval" cx="1.667" cy="1.667" r="1.667" transform="translate(5 8.333)" fill="none" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.25"/>
+  <path id="Path-4" data-name="Path" d="M0,.417H1.667" transform="translate(3.333 9.583)" fill="none" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.25"/>
+  <path id="Path-5" data-name="Path" d="M0,.417H8.333" transform="translate(8.333 9.583)" fill="none" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.25"/>
+  <circle id="Oval-3" data-name="Oval" cx="1.667" cy="1.667" r="1.667" transform="translate(12.5 13.333)" fill="none" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.25"/>
+  <path id="Path-6" data-name="Path" d="M0,.417H9.167" transform="translate(3.333 14.583)" fill="none" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.25"/>
+  <path id="Path-7" data-name="Path" d="M0,.417H.833" transform="translate(15.833 14.583)" fill="none" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.25"/>
+</svg>

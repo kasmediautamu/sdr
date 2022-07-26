@@ -1,0 +1,32 @@
+@import "../../styles/index.scss";
+.sdr-sidebar {
+ @extend .bg-sdr-black-pearl;
+ width: 100%;
+ height: 89.9vh;
+ .sdr-active-menu {
+  display: flex;
+  @extend .text-sdr-black-pearl;
+  @extend .bg-sdr-mantis;
+  padding: 10px 20px;
+  .label {
+   font-size: 14px;
+   font-family: $sdr-font;
+   padding-left: 10px;
+  }
+ }
+ .sdr-disabled-menu {
+  display: flex;
+  @extend .text-sdr-white;
+  @extend .bg-sdr-black-pearl;
+  padding: 10px 20px;
+  .label {
+   font-size: 14px;
+   font-family: $sdr-font;
+   padding-left: 10px;
+  }
+
+  &:hover {
+   @extend .sdr-active-menu;
+  }
+ }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import {SpinnerCircularSplit} from "spinners-react";
 import "./styles.scss";
-const AppLoading: React.FunctionComponent = () => {
+const AppLoading = () => {
  return (
   <div className="txc-app-loading">
    <div className="txc-circular-split">

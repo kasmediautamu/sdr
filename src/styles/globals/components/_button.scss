@@ -1,3 +1,9 @@
+// create box
+@mixin box($size) {
+ width: $size;
+ height: $size;
+}
+
 @mixin sdr-btn($bg-color: #e2e) {
  text-decoration: none;
  cursor: pointer;
@@ -42,4 +48,14 @@
 @mixin ball($size) {
  @include box($size);
  border-radius: 50%;
+}
+
+// background
+.sdr-background {
+ // fit to container size
+ @include box(100%);
+ transform: skewX(-10deg);
+ border-radius: 17px 0;
+ height: 44px;
+ transition: background-color 0.1s;
 }
