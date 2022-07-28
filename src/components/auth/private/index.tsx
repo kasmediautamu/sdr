@@ -3,7 +3,7 @@ import {Navigate, useLocation} from "react-router-dom";
 import "./styles.scss";
 
 const PrivateRoute = ({children}: any) => {
- const isAuthenticated = false;
+ const isAuthenticated = true;
  const location = useLocation();
 
  return isAuthenticated ? (

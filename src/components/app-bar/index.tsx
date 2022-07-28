@@ -10,14 +10,20 @@ import SdrNotification from "../../assets/sdr-notification.svg";
 import SdrUser from "../../assets/sdr-user.svg";
 import SdrArrow from "../../assets/sdr-arrow.svg";
 import "./styles.scss";
+import {useDispatch, useSelector} from "react-redux";
+import {leftCollapse} from "../../store/ui/ui.actions";
+import {selectLeftCollapse} from "../../store/ui/ui.selectors";
 interface IAppBarProps {
  screenTitle: string;
 }
 const AppBar = ({screenTitle}: IAppBarProps) => {
+ const dispatch = useDispatch();
+ const leftCollapsed = useSelector(selectLeftCollapse);
+
  return (
   <div className="sdr-appbar">
    <div className="sdr-appbar__left">
-    <div className="sdr-menu-toggle">
+    <div className="sdr-menu-toggle" onClick={() => dispatch(leftCollapse())}>
      <img src={SdrMenuToggle} alt="menu" />
     </div>
     <div className="sdr-logo">

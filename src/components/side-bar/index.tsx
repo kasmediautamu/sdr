@@ -9,11 +9,12 @@ import SdrRiskManagement from "../../assets/sdr-risk-mgnt.svg";
 import SdrAccountManagement from "../../assets/sdr-acc-mgnt.svg";
 import SdrHelp from "../../assets/sdr-help.svg";
 import "./styles.scss";
+import {useSelector} from "react-redux";
+import {selectLeftCollapse} from "../../store/ui/ui.selectors";
 
 const SideBar = () => {
- //  const [isCollapsed, setIsCollapsed] = useState<string>(
- //   localStorage.getItem("sidebar").toString() || "isCollapsed"
- //  );
+ const leftCollapsed = useSelector(selectLeftCollapse);
+
  return (
   <div className="sdr-sidebar">
    <NavLink
@@ -23,7 +24,7 @@ const SideBar = () => {
     }
    >
     <img src={SdrDashboard} alt="" />
-    <p className="label">Dashboard</p>
+    {leftCollapsed ? "" : <p className="label">Dashboard</p>}
    </NavLink>
    <NavLink
     to={"/assets"}
@@ -32,7 +33,7 @@ const SideBar = () => {
     }
    >
     <img src={SdrAsset} alt="dashboard icon" />
-    <p className="label">Asset Management</p>
+    {leftCollapsed ? "" : <p className="label">Asset Management</p>}
    </NavLink>
    <NavLink
     to={"/mdr"}
@@ -41,7 +42,7 @@ const SideBar = () => {
     }
    >
     <img src={SdrMdr} alt="dashboard icon" />
-    <p className="label">MDR</p>
+    {leftCollapsed ? "" : <p className="label">MDR</p>}
    </NavLink>
    <NavLink
     to={"/end-point"}
@@ -50,7 +51,7 @@ const SideBar = () => {
     }
    >
     <img src={SdrEndPoint} alt="dashboard icon" />
-    <p className="label">End point</p>
+    {leftCollapsed ? "" : <p className="label">End point</p>}
    </NavLink>
    <NavLink
     to={"/ndr"}
@@ -59,7 +60,7 @@ const SideBar = () => {
     }
    >
     <img src={SdrNdr} alt="dashboard icon" />
-    <p className="label">NDR</p>
+    {leftCollapsed ? "" : <p className="label">NDR</p>}
    </NavLink>
    <NavLink
     to={"/risk-management"}
@@ -68,7 +69,7 @@ const SideBar = () => {
     }
    >
     <img src={SdrRiskManagement} alt="dashboard icon" />
-    <p className="label">Risk Management</p>
+    {leftCollapsed ? "" : <p className="label">Risk Management</p>}
    </NavLink>
    <NavLink
     to={"/account-management"}
@@ -77,7 +78,7 @@ const SideBar = () => {
     }
    >
     <img src={SdrAccountManagement} alt="dashboard icon" />
-    <p className="label">Account Management</p>
+    {leftCollapsed ? "" : <p className="label">Account Management</p>}
    </NavLink>
    <NavLink
     to={"/help"}
@@ -86,7 +87,7 @@ const SideBar = () => {
     }
    >
     <img src={SdrHelp} alt="dashboard icon" />
-    <p className="label">Help</p>
+    {leftCollapsed ? "" : <p className="label">Help</p>}
    </NavLink>
   </div>
  );

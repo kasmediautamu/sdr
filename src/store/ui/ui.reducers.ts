@@ -1,37 +1,28 @@
 import * as types from "./ui.actions";
-import {IHomeView} from "./ui.actions";
 export interface IUiState {
- view: string;
- isCollapsed: boolean;
- homeView: IHomeView;
+ leftCollapsed: boolean;
 }
-const defaultState: IUiState = {
- view: "home",
- isCollapsed: false,
- homeView: "getting-started",
+const getDefaultState = (): IUiState => {
+ const cached = window.localStorage.getItem("leftCollapsed")
+  ? localStorage.getItem("leftCollapsed") === "true"
+  : false;
+ const collapsed = cached ? cached : false;
+
+ return {
+  leftCollapsed: collapsed,
+ };
 };
-export default (state = defaultState, action: types.UiActionTypes) => {
+
+export default (state = getDefaultState(), action: types.UiActionTypes) => {
  switch (action.type) {
-  case types.SET_VIEW:
+  case types.LEFT_COLLAPSE:
    return {
     ...state,
-    view: action.payload,
+    leftCollapsed: localStorage.getItem("leftCollapsed")
+     ? localStorage.getItem("leftCollapsed") === "true"
+     : false,
    };
-  case types.EXPAND_LEFTBAR:
-   return {
-    ...state,
-    isCollapsed: false,
-   };
-  case types.CONTRACT_LEFTBAR:
-   return {
-    ...state,
-    isCollapsed: true,
-   };
-  case types.SET_DASHBOARD_HOME_VIEW:
-   return {
-    ...state,
-    homeView: action.payload.screen,
-   };
+
   default:
    return state;
  }
