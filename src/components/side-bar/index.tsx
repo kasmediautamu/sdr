@@ -14,7 +14,7 @@ import {selectLeftCollapse} from "../../store/ui/ui.selectors";
 
 const SideBar = () => {
  const leftCollapsed = useSelector(selectLeftCollapse);
-
+ console.log(leftCollapsed);
  return (
   <div className="sdr-sidebar">
    <NavLink
